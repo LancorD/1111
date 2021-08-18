@@ -15,7 +15,7 @@ public class SelenideBasicStructureTest {
         $("#twotabsearchtextbox").setValue("Harry Potter").pressEnter();
         // Проверка: загрузился список товаров и на первом месте товар с именем Harry Potter
         $$("[data-component-type=s-search-result]").first()
-                .shouldHave(text("Harry Potter"));
+                .shouldHave(text("Har324324234"));
     }
 
     @Test
